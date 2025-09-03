@@ -1,0 +1,9 @@
+[submodule "databaseMLUtils"]
+	path = databaseMLUtils
+	url = https://github.com/emoralesv/databaseMLUtils.git
+[submodule "experimenterML"]
+	path = experimenterML
+	url = https://github.com/emoralesv/experimenterML.git
+[submodule "multiViewLearning"]
+	path = multiViewLearning
+	url = https://github.com/emoralesv/multiViewLearning.git
