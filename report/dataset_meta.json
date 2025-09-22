@@ -1,0 +1,95 @@
+{
+  "name": "Tomate Rugoso",
+  "url": "Rugose",
+  "task": "classification",
+  "images_count": 8181,
+  "classes": [
+    "Plantas-de-jitomate",
+    "T_F_H",
+    "T_F_R",
+    "T_Fl_H",
+    "T_Fl_R",
+    "T_L_H",
+    "T_L_R",
+    "T_S_H",
+    "T_S_R"
+  ],
+  "per_class_counts": {
+    "Plantas-de-jitomate": 7,
+    "T_F_H": 1659,
+    "T_F_R": 1186,
+    "T_Fl_H": 77,
+    "T_Fl_R": 43,
+    "T_L_H": 1953,
+    "T_L_R": 2301,
+    "T_S_H": 750,
+    "T_S_R": 205
+  },
+  "color_summary": {
+    "color": 8181
+  },
+  "resolution_top": [
+    [
+      "44x28",
+      8
+    ],
+    [
+      "38x30",
+      8
+    ],
+    [
+      "40x32",
+      7
+    ],
+    [
+      "41x36",
+      7
+    ],
+    [
+      "30x26",
+      7
+    ],
+    [
+      "27x24",
+      7
+    ],
+    [
+      "29x28",
+      7
+    ],
+    [
+      "27x21",
+      7
+    ],
+    [
+      "22x21",
+      7
+    ],
+    [
+      "29x25",
+      7
+    ]
+  ],
+  "width_stats": {
+    "min": 4.0,
+    "max": 2246.0,
+    "mean": 142.15817137269283,
+    "median": 88.0
+  },
+  "height_stats": {
+    "min": 3.0,
+    "max": 2883.0,
+    "mean": 139.93167094487225,
+    "median": 80.0
+  },
+  "aspect_ratio_stats": {
+    "min": 0.05008944543828265,
+    "max": 16.16216216216216,
+    "mean": 1.2029633109581925,
+    "median": 1.1120689655172413
+  },
+  "estimated_duplicate_images": 11,
+  "corrupted_images": 0,
+  "has_splits": false,
+  "splits": {}
+}

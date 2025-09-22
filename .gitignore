@@ -11,9 +11,12 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+tomate_rugoso/
+
 downloads/
 eggs/
 .eggs/
+views/
 lib/
 lib64/
 parts/

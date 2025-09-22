@@ -1,0 +1,21 @@
+name: multiviewRugoseTomatoClassification
+module: trainModule
+function: run_experiment
+out_csv: results.csv
+params:
+  root: "i:/Documentos/Documentos/repos/multiviewRugoseTomatoClassification/views"
+  views: ["RGB", "LBP"]
+  modes: ["RGB", "L"]
+  datasetType: multiview
+  backbone: resnet18
+  gated: true
+  pretrained: true
+  image_size: 224
+  batch_size: 4
+  epochs: 1
+  lr: 0.001
+  lr_step: 5
+  lr_gamma: 0.5
+  train_ratio: 0.8
+  use_sampler: false
+  out_dir: "results/tomate_rgb_lbp_smoke"
